@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-image: url(..//img/Group\ 13.png);
+    background-size: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1332px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.nav{
+    display: flex;
+    width: 70%;
+}
+
+.nav li{
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color:#fff;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.nav li a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.flag{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+.en{
+    position: relative;
+    top: -10px;
+    left:4px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.btn-login{
+    border: 1px solid #fff;
+    padding: 9px 24px 9px 24px;
+    border-radius: 5px;
+}
+
+.main{
+    text-align: center;
+    color: #fff;
+    margin-top: 140px;
+}
+
+.main-title{
+    text-transform: uppercase;
+    font-size: 72px;
+}
+
+.main-text span{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    width: 500px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.button{
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    margin-top: 60px;
+    color:#ED4C5C;
+}
+
+.button span{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
